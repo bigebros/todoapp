@@ -1,8 +1,8 @@
 About App
 
--User can add, edit, delete items and can search product by their name.
--Added product can be ordered by their price ascending and same price inputs. As if the price same then show up results would be in their alphabetical order. 
--Show up all lists of items from the backend.
+- User can add, edit, delete items and can search product by their name.
+- Added product can be ordered by their price ascending and same price inputs. As if the price same then show up results would be in their alphabetical order. 
+- Show up all lists of items from the backend.
 
 Running app on local server instruction
 
