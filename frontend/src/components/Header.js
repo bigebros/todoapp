@@ -34,7 +34,9 @@ function Header() {
 
   return (
     <div className="header">
-      <p className="logo">User Management System</p>
+      <Link to="/">
+        <p className="logo">User Management System</p>
+      </Link>
       <div className="header-right">
         <Link to="/">
           {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions */}
