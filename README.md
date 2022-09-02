@@ -4,7 +4,7 @@ About App
 - Added product can be ordered by their price ascending and same price inputs. As if the price same then show up results would be in their alphabetical order. 
 - Show up all lists of items from the backend.
 
-Running app on local server instruction
+Running app on local server 
 
 1. If working on your mongodb server replace URl from yours. Example below ↓  
 // const URL = `mongodb+srv://${username}:${password}@cluster0.ewx3gxb.mongodb.net/todo?retryWrites=true&w=majority`.
