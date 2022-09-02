@@ -4,7 +4,9 @@ import User from '../model/user.js';
 export const getUsers = async (request, response) => {
   const { q = '' } = request.query;
   try {
-    const users = await User.find({ name: { $regex: q } }).sort({
+    const users = await User.find({
+      name: { $regex: new RegExp('^' + q.toLowerCase(), 'i') }
+    }).sort({
       price: 1,
       name: 1
     });
