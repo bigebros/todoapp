@@ -9,7 +9,9 @@ Running app on local server
 1. If working on your mongodb server replace URl and inputs from yours and env file. Example below ↓  
 // const URL = `mongodb+srv://${username}:${password}@cluster0.ewx3gxb.mongodb.net/todo?retryWrites=true&w=majority`.
 // PORT = 8080
+
 //DB_USERNAME=todoapp
+
 //DB_PASSWORD=5dKE1wyPvFhhbGcC
 
 2. npm install on frontend and server folders. 
