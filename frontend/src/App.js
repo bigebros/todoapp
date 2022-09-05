@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 
-import Header from './components/Header';
+import Navbar from './components/navbar';
 import AddUser from './pages/AddUser';
 import EditUser from './pages/EditUser';
 import AllItems from './pages/AllItems';
@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header />
+        <Navbar />
         <Routes>
           <Route path="/" element={<AllItems />} />
           <Route path="/add" element={<AddUser />} />

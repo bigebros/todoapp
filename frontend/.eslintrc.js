@@ -16,10 +16,12 @@ module.exports = {
   },
   plugins: ['react', 'eslint-plugin-prettier', 'jsx-a11y'],
   rules: {
+    'react/jsx-props-no-spreading': 'off',
     'jsx-a11y/click-events-have-key-events': 'off',
     'linebreak-style': 0,
     'prettier/prettier': ['error', { singleQuote: true }],
     'react/react-in-jsx-scope': 'off',
+    'react/prop-types': 'off',
     quotes: [2, 'single'],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'no-underscore-dangle': 'off',
